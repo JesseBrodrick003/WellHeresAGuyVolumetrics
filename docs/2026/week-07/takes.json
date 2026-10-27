@@ -1,0 +1,2204 @@
+{
+  "week": {
+    "ARI": {
+      "team_name": "Arizona Cardinals",
+      "take": "This passing game runs through T McBride: 13 targets, 30% of the share.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "T McBride: 29.5% target share (>= 28%)"
+        }
+      ]
+    },
+    "ATL": {
+      "team_name": "Atlanta Falcons",
+      "take": "This passing game runs through D London: 10 targets, 31% of the share. D London also got 2 of the team's 5 red-zone targets, and that's where touchdowns come from. B Robinson had 5 targets out of the backfield (16%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "D London: 31.2% target share (>= 28%)"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "D London: 2 of 5 team red-zone targets"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "B Robinson (RB): 16% target share"
+        }
+      ]
+    },
+    "BAL": {
+      "team_name": "Baltimore Ravens",
+      "take": "Z Flowers is the clear No. 1 here with 32% of the targets (11). J Lane got 2 of the team's 4 red-zone targets, and that's where touchdowns come from.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "Z Flowers: 32.4% target share (>= 28%)"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "J Lane: 2 of 4 team red-zone targets"
+        }
+      ]
+    },
+    "CAR": {
+      "team_name": "Carolina Panthers",
+      "take": "J Coker only saw 14% of the targets after averaging 25%, even on 66% of the snaps. The role is still there. This is a buy-low window. This passing offense is a mess: no receiver cleared 75% of the snaps and nobody got a real share of the targets (top guy was 21%). Hard to trust anyone here until something changes. C Hubbard had 5 targets out of the backfield (17%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "faller",
+          "evidence": "J Coker: 25% prior avg -> 14%; snaps 68% -> 66%"
+        },
+        {
+          "key": "mess",
+          "evidence": "top share 21% (< 25%), 4 players >= 10%, max WR snaps 68%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "C Hubbard (RB): 17% target share"
+        }
+      ]
+    },
+    "CHI": {
+      "team_name": "Chicago Bears",
+      "take": "12 targets for C Loveland. That's 40% of the pie, and it went for 7-69, 1 TD. Any time a guy gets over 40% of the looks, you expect a big day, and he delivered. C Loveland did drop 2 balls, which is the kind of thing that costs you targets if it keeps up.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_40",
+          "evidence": "C Loveland: 12/30 = 40.0% target share (>= 40%)"
+        },
+        {
+          "key": "drops",
+          "evidence": "C Loveland: 2 drops (FTN)"
+        }
+      ]
+    },
+    "CIN": {
+      "team_name": "Cincinnati Bengals",
+      "take": "Look at how tight J Chase and T Higgins are: 7 targets to 7. C Brown had 5 targets out of the backfield (18%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "J Chase 25.0% vs T Higgins 25.0% (gap <= 4%)"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "C Brown (RB): 18% target share"
+        }
+      ]
+    },
+    "CLE": {
+      "team_name": "Cleveland Browns",
+      "take": "K Concepcion (29%) and H Fannin (26%) are a lot closer than most people think. H Fannin actually played more snaps (83% to 79%).",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "K Concepcion 28.6% vs H Fannin 25.7% (gap <= 4%)"
+        }
+      ]
+    },
+    "DAL": {
+      "team_name": "Dallas Cowboys",
+      "take": "12 targets for C Lamb. That's 46% of the pie, and it went for 5-74, 2 TDs. Any time a guy gets over 40% of the looks, you expect a big day, and he delivered. Notice G Pickens earned 6 targets while only playing 60% of the snaps. That's a guy getting open when he's out there. C Lamb also got 4 of the team's 6 red-zone targets, and that's where touchdowns come from.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_40",
+          "evidence": "C Lamb: 12/26 = 46.2% target share (>= 40%)"
+        },
+        {
+          "key": "part_time",
+          "evidence": "G Pickens: 23% target share on 60% snaps"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "C Lamb: 4 of 6 team red-zone targets"
+        }
+      ]
+    },
+    "DEN": {
+      "team_name": "Denver Broncos",
+      "take": "J Waddle is the clear No. 1 here with 28% of the targets (7). No wide receiver played more than 70% of the snaps, so a rotation is capping everybody's ceiling.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "J Waddle: 28.0% target share (>= 28%)"
+        },
+        {
+          "key": "rotation",
+          "evidence": "max WR snap share 70% (< 75%)"
+        }
+      ]
+    },
+    "DET": {
+      "team_name": "Detroit Lions",
+      "take": "A St. Brown is the clear No. 1 here with 35% of the targets (11). Notice J Williams is trending up: 29% of the targets this week vs 15% coming in. S LaPorta only saw 6% of the targets after averaging 19%, even on 97% of the snaps. The role is still there. This is a buy-low window. J Williams also got 4 of the team's 6 red-zone targets, and that's where touchdowns come from.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "A St. Brown: 35.5% target share (>= 28%)"
+        },
+        {
+          "key": "riser",
+          "evidence": "J Williams: 15% prior avg -> 29% (+14%)"
+        },
+        {
+          "key": "faller",
+          "evidence": "S LaPorta: 19% prior avg -> 6%; snaps 88% -> 97%"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "J Williams: 4 of 6 team red-zone targets"
+        }
+      ]
+    },
+    "GB": {
+      "team_name": "Green Bay Packers",
+      "take": "M Golden is the clear No. 1 here with 29% of the targets (12). J Jacobs had 7 targets out of the backfield (17%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "M Golden: 28.6% target share (>= 28%)"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "J Jacobs (RB): 17% target share"
+        }
+      ]
+    },
+    "HOU": {
+      "team_name": "Houston Texans",
+      "take": "D Schultz (21%) and X Hutchinson (21%) are a lot closer than most people think. And X Hutchinson had the bigger red-zone role (1 RZ to 0). This passing offense is a mess: no receiver cleared 75% of the snaps and nobody got a real share of the targets (top guy was 21%). Hard to trust anyone here until something changes.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "D Schultz 21.4% vs X Hutchinson 21.4% (gap <= 4%)"
+        },
+        {
+          "key": "mess",
+          "evidence": "top share 21% (< 25%), 4 players >= 10%, max WR snaps 67%"
+        }
+      ]
+    },
+    "IND": {
+      "team_name": "Indianapolis Colts",
+      "take": "T Warren didn't play a snap, and A Ogletree is the guy who soaked it up: 10% of the targets, up from 2%. Keep him in mind if T Warren misses more time. A lot of targets spread around this week: 4 guys hit double-digit share and nobody topped 19%. Only 21 targets to go around, so even a big share doesn't buy much.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "T Warren averaged 21% share before, 0 offensive snaps this week; A Ogletree share 2% -> 10%, snaps 27% -> 57%"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 19% (< 25%), 4 players >= 10%"
+        },
+        {
+          "key": "volume_low",
+          "evidence": "21 team targets (<= 22)"
+        }
+      ]
+    },
+    "KC": {
+      "team_name": "Kansas City Chiefs",
+      "take": "With R Rice not taking an offensive snap, notice J Royals was out there for 68% of the snaps, up from 43%. The targets haven't caught up yet, but if R Rice is out another week, he's a sneaky pickup. K Walker had 5 targets out of the backfield (16%). That's real PPR value. T Kelce commanded 25% of the targets at tight end, and that's a weekly-starter role at the position.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "R Rice averaged 15% share before, 0 offensive snaps this week; J Royals share 8% -> 6%, snaps 43% -> 68%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "K Walker (RB): 16% target share"
+        },
+        {
+          "key": "te_role",
+          "evidence": "T Kelce (TE): 25% target share"
+        }
+      ]
+    },
+    "LA": {
+      "team_name": "Los Angeles Rams",
+      "take": "D Adams didn't play a snap, and D Allen is the guy who soaked it up: 17% of the targets, up from 3%. Keep him in mind if D Adams misses more time. P Nacua is the clear No. 1 here with 34% of the targets (10). Notice C Parkinson is trending up: 21% of the targets this week vs 8% coming in. P Nacua also got 3 of the team's 6 red-zone targets, and that's where touchdowns come from.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "D Adams averaged 21% share before, 0 offensive snaps this week; D Allen share 3% -> 17%, snaps 42% -> 69%"
+        },
+        {
+          "key": "alpha",
+          "evidence": "P Nacua: 34.5% target share (>= 28%)"
+        },
+        {
+          "key": "riser",
+          "evidence": "C Parkinson: 8% prior avg -> 21% (+13%)"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "P Nacua: 3 of 6 team red-zone targets"
+        }
+      ]
+    },
+    "LV": {
+      "team_name": "Las Vegas Raiders",
+      "take": "Don't panic on B Bowers: 19% of the looks this week, but he was at 29% coming in and still played 84% of the snaps. I'd buy low. Notice M Mayer actually played 82% of the snaps but only got 3 targets. A Jeanty had 8 targets out of the backfield (19%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "faller",
+          "evidence": "B Bowers: 29% prior avg -> 19%; snaps 82% -> 84%"
+        },
+        {
+          "key": "snaps_no_looks",
+          "evidence": "M Mayer: 82% snaps but 3 targets (7%)"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "A Jeanty (RB): 19% target share"
+        }
+      ]
+    },
+    "MIA": {
+      "team_name": "Miami Dolphins",
+      "take": "With D Achane not taking an offensive snap, O Gordon jumped to 14% of the targets after averaging 4%. If D Achane is out another week, O Gordon is a sneaky pickup. Don't panic on M Washington: 14% of the looks this week, but he was at 28% coming in and still played 80% of the snaps. I'd buy low. C Bell pulled 19% of the targets on just 48% of the snaps. If that snap share climbs, he's a sneaky add.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "D Achane averaged 16% share before, 0 offensive snaps this week; O Gordon share 4% -> 14%, snaps 46% -> 83%"
+        },
+        {
+          "key": "faller",
+          "evidence": "M Washington: 28% prior avg -> 14%; snaps 85% -> 80%"
+        },
+        {
+          "key": "part_time",
+          "evidence": "C Bell: 19% target share on 48% snaps"
+        }
+      ]
+    },
+    "MIN": {
+      "team_name": "Minnesota Vikings",
+      "take": "This passing game runs through J Jefferson: 7 targets, 29% of the share. T Hockenson got 2 of the team's 4 red-zone targets, and that's where touchdowns come from. J Mason did drop 2 balls, which is the kind of thing that costs you targets if it keeps up.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "J Jefferson: 29.2% target share (>= 28%)"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "T Hockenson: 2 of 4 team red-zone targets"
+        },
+        {
+          "key": "drops",
+          "evidence": "J Mason: 2 drops (FTN)"
+        }
+      ]
+    },
+    "NE": {
+      "team_name": "New England Patriots",
+      "take": "With M Hollins not taking an offensive snap, H Henry jumped to 23% of the targets after averaging 14%. If M Hollins is out another week, H Henry is a sneaky pickup. No one dominated here. 5 different players got 10%+ of the looks, which is fine for the offense and tough for fantasy. R Stevenson had 5 targets out of the backfield (17%). That's real PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "M Hollins averaged 17% share before, 0 offensive snaps this week; H Henry share 14% -> 23%, snaps 74% -> 76%"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 23% (< 25%), 5 players >= 10%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "R Stevenson (RB): 17% target share"
+        }
+      ]
+    },
+    "NO": {
+      "team_name": "New Orleans Saints",
+      "take": "Notice A Kamara earned 7 targets while only playing 56% of the snaps. That's a guy getting open when he's out there. C Olave got 2 of the team's 4 red-zone targets, and that's where touchdowns come from.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "part_time",
+          "evidence": "A Kamara: 18% target share on 56% snaps"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "C Olave: 2 of 4 team red-zone targets"
+        }
+      ]
+    },
+    "NYG": {
+      "team_name": "New York Giants",
+      "take": "This passing game runs through M Nabers: 9 targets, 33% of the share. I Likely only saw 15% of the targets after averaging 29%, even on 86% of the snaps. The role is still there. This is a buy-low window. No wide receiver played more than 74% of the snaps, so a rotation is capping everybody's ceiling.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "M Nabers: 33.3% target share (>= 28%)"
+        },
+        {
+          "key": "faller",
+          "evidence": "I Likely: 29% prior avg -> 15%; snaps 73% -> 86%"
+        },
+        {
+          "key": "rotation",
+          "evidence": "max WR snap share 74% (< 75%)"
+        }
+      ]
+    },
+    "NYJ": {
+      "team_name": "New York Jets",
+      "take": "B Allen (24%) and M Taylor (21%) are a lot closer than most people think. And M Taylor had the bigger red-zone role (3 RZ to 0). G Wilson only saw 10% of the targets after averaging 29%, even on 85% of the snaps. The role is still there. This is a buy-low window. M Taylor also got 3 of the team's 7 red-zone targets, and that's where touchdowns come from. A lot of targets spread around this week: 6 guys hit double-digit share and nobody topped 24%.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "B Allen 24.1% vs M Taylor 20.7% (gap <= 4%)"
+        },
+        {
+          "key": "faller",
+          "evidence": "G Wilson: 29% prior avg -> 10%; snaps 91% -> 85%"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "M Taylor: 3 of 7 team red-zone targets"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 24% (< 25%), 6 players >= 10%"
+        }
+      ]
+    },
+    "PHI": {
+      "team_name": "Philadelphia Eagles",
+      "take": "D Smith didn't play a snap, and M Brown is the guy who soaked it up: 15% of the targets, up from 0%. Keep him in mind if D Smith misses more time. M Lemon (24%) and D Goedert (21%) are a lot closer than most people think. A lot of targets spread around this week: 4 guys hit double-digit share and nobody topped 24%.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "D Smith averaged 32% share before, 0 offensive snaps this week; M Brown share 0% -> 15%, snaps 22% -> 55%"
+        },
+        {
+          "key": "co_alpha",
+          "evidence": "M Lemon 24.2% vs D Goedert 21.2% (gap <= 4%)"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 24% (< 25%), 4 players >= 10%"
+        }
+      ]
+    },
+    "PIT": {
+      "team_name": "Pittsburgh Steelers",
+      "take": "D Metcalf (21%) and R Dowdle (21%) are a lot closer than most people think. A lot of targets spread around this week: 5 guys hit double-digit share and nobody topped 21%.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "D Metcalf 21.4% vs R Dowdle 21.4% (gap <= 4%)"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 21% (< 25%), 5 players >= 10%"
+        }
+      ]
+    },
+    "SEA": {
+      "team_name": "Seattle Seahawks",
+      "take": "12 targets for J Smith-Njigba. That's 44% of the pie, and it went for 9-150, 1 TD. Any time a guy gets over 40% of the looks, you expect a big day, and he delivered.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_40",
+          "evidence": "J Smith-Njigba: 12/27 = 44.4% target share (>= 40%)"
+        }
+      ]
+    },
+    "SF": {
+      "team_name": "San Francisco 49ers",
+      "take": "M Evans didn't play a snap, and J Watkins is the guy who soaked it up: 15% of the targets, up from 3%. Keep him in mind if M Evans misses more time. Notice C McCaffrey earned 7 targets while only playing 52% of the snaps. That's a guy getting open when he's out there. G Kittle commanded 26% of the targets at tight end, and that's a weekly-starter role at the position.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "absent",
+          "evidence": "M Evans averaged 23% share before, 0 offensive snaps this week; J Watkins share 3% -> 15%, snaps 45% -> 76%"
+        },
+        {
+          "key": "part_time",
+          "evidence": "C McCaffrey: 18% target share on 52% snaps"
+        },
+        {
+          "key": "te_role",
+          "evidence": "G Kittle (TE): 26% target share"
+        }
+      ]
+    },
+    "TB": {
+      "team_name": "Tampa Bay Buccaneers",
+      "take": "C Godwin soaked up 45% of the targets (5 looks) but only got 4-27 out of it. That kind of volume doesn't stay quiet for long. T Johnson's role is growing: 18% of the looks after averaging 7%. No wide receiver played more than 73% of the snaps, so a rotation is capping everybody's ceiling.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_40",
+          "evidence": "C Godwin: 5/11 = 45.5% target share (>= 40%)"
+        },
+        {
+          "key": "riser",
+          "evidence": "T Johnson: 7% prior avg -> 18% (+11%)"
+        },
+        {
+          "key": "rotation",
+          "evidence": "max WR snap share 73% (< 75%)"
+        }
+      ]
+    },
+    "TEN": {
+      "team_name": "Tennessee Titans",
+      "take": "Look at how tight C Tate and E Ayomanor are: 7 targets to 7. And E Ayomanor had the bigger red-zone role (2 RZ to 1). W Robinson pulled 20% of the targets on just 60% of the snaps. If that snap share climbs, he's a sneaky add. W Robinson also got 3 of the team's 7 red-zone targets, and that's where touchdowns come from. A lot of targets spread around this week: 5 guys hit double-digit share and nobody topped 23%.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "co_alpha",
+          "evidence": "C Tate 23.3% vs E Ayomanor 23.3% (gap <= 4%)"
+        },
+        {
+          "key": "part_time",
+          "evidence": "W Robinson: 20% target share on 60% snaps"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "W Robinson: 3 of 7 team red-zone targets"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share 23% (< 25%), 5 players >= 10%"
+        }
+      ]
+    }
+  },
+  "last4": {
+    "ARI": {
+      "team_name": "Arizona Cardinals",
+      "take": "44 targets for T McBride over the last 4, 28% of the pie, and at least 22% every single week. I'm riding this. Notice K Bourne's share climbing: 9% to 19% over the last 4 games. That's a role that's growing.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "T McBride: 27.7% share over 4 games, never below 22%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "K Bourne: 9% share in the first games of the window -> 19% in the latest"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "ATL": {
+      "team_name": "Atlanta Falcons",
+      "take": "37 targets for D London over the last 4, 31% of the pie, and at least 30% every single week. I'm riding this. B Robinson has 16 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "D London: 31.1% share over 4 games, never below 30%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "B Robinson (RB): 13% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "BAL": {
+      "team_name": "Baltimore Ravens",
+      "take": "41 targets for Z Flowers over the last 4, 33% of the pie, and at least 29% every single week. I'm riding this. J Lane is trending the right way: 0% of the targets early in this stretch, 15% in the last two games. His snaps went from 0% to 62% too. Get him before everyone notices. M Andrews' share has slipped from 20% to 11%, but he's still playing 64% of the snaps. The role is there. This is a buy-low window.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "Z Flowers: 32.8% share over 4 games, never below 29%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "J Lane: 0% share in the first games of the window -> 15% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "M Andrews: share 20% -> 11%; snaps 65% -> 64%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "BUF": {
+      "team_name": "Buffalo Bills",
+      "take": "Notice D Kincaid's share climbing: 9% to 19% over the last 4 games. That's a role that's growing. D Moore didn't play in Week 5 and Week 6 after drawing 23% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status. Nobody has more than 19% of the targets over the last 4 games. This target tree is flat, so it's hard to trust anyone week to week.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "D Kincaid: 9% share in the first games of the window -> 19% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "D Moore: share 23% -> 0%; snaps 52% -> 0%"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share over 4 games 19%"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "CAR": {
+      "team_name": "Carolina Panthers",
+      "take": "T McMillan led the way with 36 targets (25%) over the last 4 games, with J Coker next at 21 (14%). J Coker is trending the right way: 5% of the targets early in this stretch, 25% in the last two games. His snaps went from 18% to 70% too. Get him before everyone notices.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "leaders",
+          "evidence": "top two by targets"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "J Coker: 5% share in the first games of the window -> 25% in the latest"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "CHI": {
+      "team_name": "Chicago Bears",
+      "take": "C Loveland is trending the right way: 21% of the targets early in this stretch, 31% in the last two games. Get him before everyone notices. R Odunze's share has slipped from 23% to 14%, but he's still playing 95% of the snaps. The role is there. This is a buy-low window. Notice D Swift's snaps went from 46% to 72% over this stretch. The targets usually follow the snaps. C Loveland also has 6 of the team's 16 red-zone targets over the last 4. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "C Loveland: 21% share in the first games of the window -> 31% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "R Odunze: share 23% -> 14%; snaps 94% -> 95%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "D Swift: snaps 46% -> 72%"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "C Loveland: 6 of 16 team RZ targets over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "CIN": {
+      "team_name": "Cincinnati Bengals",
+      "take": "J Chase is trending the right way: 19% of the targets early in this stretch, 29% in the last two games. His snaps went from 60% to 88% too. Get him before everyone notices. C Brown has 22 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "J Chase: 19% share in the first games of the window -> 29% in the latest"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "C Brown (RB): 15% share over 4"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    "CLE": {
+      "team_name": "Cleveland Browns",
+      "take": "K Concepcion is trending the right way: 14% of the targets early in this stretch, 26% in the last two games. His snaps went from 54% to 80% too. Get him before everyone notices. Nobody has more than 22% of the targets over the last 4 games. This target tree is flat, so it's hard to trust anyone week to week.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "K Concepcion: 14% share in the first games of the window -> 26% in the latest"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share over 4 games 22%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "DAL": {
+      "team_name": "Dallas Cowboys",
+      "take": "C Lamb leads this team at 34% of the targets over the last 4, but it's swung anywhere from 12% to 49% week to week. Expect some boom and some bust. C Lamb also has 10 of the team's 20 red-zone targets over the last 4. That's the touchdown role. This team is throwing 41 times a game over the last 4, so there's plenty of volume to go around.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_swingy",
+          "evidence": "C Lamb: 33.9% share over 4; weekly range 12%-49%"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "C Lamb: 10 of 20 team RZ targets over 4"
+        },
+        {
+          "key": "volume_high",
+          "evidence": "41.2 team targets per game over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "DEN": {
+      "team_name": "Denver Broncos",
+      "take": "J Waddle is trending the right way: 19% of the targets early in this stretch, 29% in the last two games. Get him before everyone notices. R Harvey has 17 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "J Waddle: 19% share in the first games of the window -> 29% in the latest"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "R Harvey (RB): 16% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "DET": {
+      "team_name": "Detroit Lions",
+      "take": "A St. Brown owns this offense: 29% of the targets over the last 4 games, and he hasn't dipped below 22% in any of them. That's as safe as it gets. Notice B Wright's snaps went from 46% to 62% over this stretch. The targets usually follow the snaps. J Gibbs has 27 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "A St. Brown: 28.9% share over 4 games, never below 22%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "B Wright: snaps 46% -> 62%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "J Gibbs (RB): 19% share over 4"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    "GB": {
+      "team_name": "Green Bay Packers",
+      "take": "M Golden owns this offense: 27% of the targets over the last 4 games, and he hasn't dipped below 23% in any of them. That's as safe as it gets. M Golden also has 8 of the team's 21 red-zone targets over the last 4. That's the touchdown role. T Kraft is getting 18% of the looks at tight end over the last 4, and that's a weekly starter.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "M Golden: 27.3% share over 4 games, never below 23%"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "M Golden: 8 of 21 team RZ targets over 4"
+        },
+        {
+          "key": "te_role",
+          "evidence": "T Kraft (TE): 18% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "HOU": {
+      "team_name": "Houston Texans",
+      "take": "D Schultz is trending the right way: 10% of the targets early in this stretch, 20% in the last two games. Get him before everyone notices. N Collins' share has slipped from 26% to 17%, but he's still playing 70% of the snaps. The role is there. This is a buy-low window. Notice W Marks' snaps went from 64% to 84% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "D Schultz: 10% share in the first games of the window -> 20% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "N Collins: share 26% -> 17%; snaps 70% -> 70%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "W Marks: snaps 64% -> 84%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "IND": {
+      "team_name": "Indianapolis Colts",
+      "take": "Notice K Allen's share climbing: 10% to 22% over the last 4 games. His snaps went from 22% to 60% too. That's a role that's growing. L Treadwell's share has slipped from 20% to 11%, but he's still playing 84% of the snaps. The role is there. This is a buy-low window. Nobody has more than 18% of the targets over the last 4 games. This target tree is flat, so it's hard to trust anyone week to week.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "K Allen: 10% share in the first games of the window -> 22% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "L Treadwell: share 20% -> 11%; snaps 82% -> 84%"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share over 4 games 18%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "JAX": {
+      "team_name": "Jacksonville Jaguars",
+      "take": "B Strange led the way with 28 targets (22%) over the last 4 games, with P Washington next at 28 (22%). P Washington is trending the right way: 16% of the targets early in this stretch, 25% in the last two games. Get him before everyone notices.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "leaders",
+          "evidence": "top two by targets"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "P Washington: 16% share in the first games of the window -> 25% in the latest"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "KC": {
+      "team_name": "Kansas City Chiefs",
+      "take": "Notice T Kelce's share climbing: 12% to 21% over the last 4 games. That's a role that's growing. T Thornton didn't play in Week 6 and Week 7 after drawing 19% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status. Notice J Royals' snaps went from 41% to 71% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "T Kelce: 12% share in the first games of the window -> 21% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "T Thornton: share 19% -> 0%; snaps 55% -> 0%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "J Royals: snaps 41% -> 71%"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "LA": {
+      "team_name": "Los Angeles Rams",
+      "take": "53 targets for P Nacua over the last 4, 32% of the pie, and at least 22% every single week. I'm riding this. Notice C Parkinson's share climbing: 2% to 20% over the last 4 games. His snaps went from 32% to 66% too. That's a role that's growing. K Williams has 29 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "P Nacua: 32.1% share over 4 games, never below 22%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "C Parkinson: 2% share in the first games of the window -> 20% in the latest"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "K Williams (RB): 18% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "LAC": {
+      "team_name": "Los Angeles Chargers",
+      "take": "Notice C Kolar's share climbing: 0% to 18% over the last 4 games. His snaps went from 0% to 71% too. That's a role that's growing. T Harris didn't play in Week 6 after drawing 19% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "C Kolar: 0% share in the first games of the window -> 18% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "T Harris: share 19% -> 10%; snaps 76% -> 22%"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "LV": {
+      "team_name": "Las Vegas Raiders",
+      "take": "Notice J Nailor's snaps went from 12% to 70% over this stretch. The targets usually follow the snaps. A Jeanty has 28 targets out of the backfield over the last 4. Steady PPR value. This team is throwing 42 times a game over the last 4, so there's plenty of volume to go around.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "snap_climb",
+          "evidence": "J Nailor: snaps 12% -> 70%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "A Jeanty (RB): 17% share over 4"
+        },
+        {
+          "key": "volume_high",
+          "evidence": "41.5 team targets per game over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "MIA": {
+      "team_name": "Miami Dolphins",
+      "take": "M Washington leads this team at 26% of the targets over the last 4, but it's swung anywhere from 14% to 31% week to week. Expect some boom and some bust. Notice G Dulcich's share climbing: 10% to 22% over the last 4 games. That's a role that's growing. Only about 25 targets a game over the last 4, which caps everyone's ceiling.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_swingy",
+          "evidence": "M Washington: 26.3% share over 4; weekly range 14%-31%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "G Dulcich: 10% share in the first games of the window -> 22% in the latest"
+        },
+        {
+          "key": "volume_low",
+          "evidence": "24.8 team targets per game over 4"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    "MIN": {
+      "team_name": "Minnesota Vikings",
+      "take": "J Jefferson is trending the right way: 4% of the targets early in this stretch, 27% in the last two games. His snaps went from 6% to 91% too. Get him before everyone notices. T Hockenson is heading the wrong way: 28% of the targets early in this stretch, 12% lately, and his snaps fell from 84% to 40%. That's a real role change. Nobody has more than 21% of the targets over the last 4 games. This target tree is flat, so it's hard to trust anyone week to week.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "J Jefferson: 4% share in the first games of the window -> 27% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "T Hockenson: share 28% -> 12%; snaps 84% -> 40%"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share over 4 games 21%"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    "NE": {
+      "team_name": "New England Patriots",
+      "take": "Notice A Brown's share climbing: 0% to 27% over the last 4 games. His snaps went from 0% to 84% too. That's a role that's growing. Nobody has more than 17% of the targets over the last 4 games. This target tree is flat, so it's hard to trust anyone week to week.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "A Brown: 0% share in the first games of the window -> 27% in the latest"
+        },
+        {
+          "key": "spread",
+          "evidence": "top share over 4 games 17%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "NO": {
+      "team_name": "New Orleans Saints",
+      "take": "C Olave is the clear No. 1 over the last 4 games: 35 targets, 25% of the share. J Johnson's share has slipped from 19% to 7%, but he's still playing 57% of the snaps. The role is there. This is a buy-low window. A Kamara has 20 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha",
+          "evidence": "C Olave: 25.2% share over 4 games"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "J Johnson: share 19% -> 7%; snaps 71% -> 57%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "A Kamara (RB): 14% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "NYG": {
+      "team_name": "New York Giants",
+      "take": "M Nabers owns this offense: 34% of the targets over the last 4 games, and he hasn't dipped below 24% in any of them. That's as safe as it gets. M Fields is trending the right way: 7% of the targets early in this stretch, 19% in the last two games. His snaps went from 69% to 84% too. Get him before everyone notices. I Likely's share has slipped from 33% to 20%, but he's still playing 88% of the snaps. The role is there. This is a buy-low window.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "M Nabers: 33.8% share over 4 games, never below 24%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "M Fields: 7% share in the first games of the window -> 19% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "I Likely: share 33% -> 20%; snaps 73% -> 88%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "NYJ": {
+      "team_name": "New York Jets",
+      "take": "Notice M Taylor's share climbing: 5% to 21% over the last 4 games. His snaps went from 30% to 59% too. That's a role that's growing. G Wilson's share has slipped from 32% to 16%, but he's still playing 92% of the snaps. The role is there. This is a buy-low window. Notice O Cooper's snaps went from 0% to 73% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "M Taylor: 5% share in the first games of the window -> 21% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "G Wilson: share 32% -> 16%; snaps 97% -> 92%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "O Cooper: snaps 0% -> 73%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "PHI": {
+      "team_name": "Philadelphia Eagles",
+      "take": "D Smith is trending the right way: 0% of the targets early in this stretch, 16% in the last two games. His snaps went from 0% to 33% too. Get him before everyone notices. D Wicks didn't play in Week 7 after drawing 21% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status. Notice D Pierce's snaps went from 38% to 80% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "D Smith: 0% share in the first games of the window -> 16% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "D Wicks: share 21% -> 5%; snaps 88% -> 31%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "D Pierce: snaps 38% -> 80%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "PIT": {
+      "team_name": "Pittsburgh Steelers",
+      "take": "Notice D Metcalf's share climbing: 18% to 28% over the last 4 games. That's a role that's growing. Notice G Bernard's snaps went from 66% to 92% over this stretch. The targets usually follow the snaps. J Warren has 20 targets out of the backfield over the last 4. Steady PPR value.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "D Metcalf: 18% share in the first games of the window -> 28% in the latest"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "G Bernard: snaps 66% -> 92%"
+        },
+        {
+          "key": "rb_targets",
+          "evidence": "J Warren (RB): 14% share over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "SEA": {
+      "team_name": "Seattle Seahawks",
+      "take": "J Smith-Njigba owns this offense: 35% of the targets over the last 4 games, and he hasn't dipped below 30% in any of them. That's as safe as it gets.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "locked",
+          "evidence": "J Smith-Njigba: 35.0% share over 4 games, never below 30%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "SF": {
+      "team_name": "San Francisco 49ers",
+      "take": "Notice C McCaffrey's share climbing: 14% to 26% over the last 4 games. That's a role that's growing. M Evans didn't play in Week 7 after drawing 32% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status. Notice J Watkins' snaps went from 38% to 76% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "C McCaffrey: 14% share in the first games of the window -> 26% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "M Evans: share 32% -> 9%; snaps 61% -> 20%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "J Watkins: snaps 38% -> 76%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "TB": {
+      "team_name": "Tampa Bay Buccaneers",
+      "take": "E Egbuka leads this team at 28% of the targets over the last 4, but it's swung anywhere from 15% to 39% week to week. Expect some boom and some bust. C Godwin is trending the right way: 19% of the targets early in this stretch, 32% in the last two games. Get him before everyone notices. C Otton's share has slipped from 20% to 7%, but he's still playing 94% of the snaps. The role is there. This is a buy-low window.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_swingy",
+          "evidence": "E Egbuka: 28.2% share over 4; weekly range 15%-39%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "C Godwin: 19% share in the first games of the window -> 32% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "C Otton: share 20% -> 7%; snaps 94% -> 94%"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "TEN": {
+      "team_name": "Tennessee Titans",
+      "take": "C Tate leads this team at 27% of the targets over the last 4, but it's swung anywhere from 14% to 43% week to week. Expect some boom and some bust. Notice E Ayomanor's share climbing: 5% to 16% over the last 4 games. His snaps went from 57% to 75% too. That's a role that's growing. W Robinson has 5 of the team's 14 red-zone targets over the last 4. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "alpha_swingy",
+          "evidence": "C Tate: 27.0% share over 4; weekly range 14%-43%"
+        },
+        {
+          "key": "trend_up",
+          "evidence": "E Ayomanor: 5% share in the first games of the window -> 16% in the latest"
+        },
+        {
+          "key": "red_zone",
+          "evidence": "W Robinson: 5 of 14 team RZ targets over 4"
+        }
+      ],
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "WAS": {
+      "team_name": "Washington Commanders",
+      "take": "Notice C Okonkwo's share climbing: 6% to 23% over the last 4 games. His snaps went from 29% to 74% too. That's a role that's growing. S Diggs didn't play in Week 5 after drawing 24% of the targets early in this stretch. If he's back, he should slide right back into that role, so watch his status. Notice T Burks' snaps went from 48% to 64% over this stretch. The targets usually follow the snaps.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "trend_up",
+          "evidence": "C Okonkwo: 6% share in the first games of the window -> 23% in the latest"
+        },
+        {
+          "key": "trend_down",
+          "evidence": "S Diggs: share 24% -> 10%; snaps 62% -> 30%"
+        },
+        {
+          "key": "snap_climb",
+          "evidence": "T Burks: snaps 48% -> 64%"
+        }
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "backfield": {
+    "ARI": {
+      "team_name": "Arizona Cardinals",
+      "take": "J Love didn't play in Week 7 after taking 64% of the carries early in this stretch. T Allgeier took 36% of the carries in Week 7. If J Love sits again, T Allgeier is the add. This is a committee: T Allgeier 36% of the carries, B Knight 32%. B Knight has the passing-down edge with 5 targets to 3. Hard to trust either as more than a flex.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_missed",
+          "evidence": "J Love: 64% rush share early, missed [6, 7]"
+        },
+        {
+          "key": "committee",
+          "evidence": "T Allgeier 36% / B Knight 32% of carries"
+        }
+      ]
+    },
+    "ATL": {
+      "team_name": "Atlanta Falcons",
+      "take": "B Robinson is a true workhorse: 81% of the snaps and 80% of the carries (20). That's been his job all 4 games (70% of the carries).",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "B Robinson: 81% snaps, 80% rush share"
+        }
+      ]
+    },
+    "BAL": {
+      "team_name": "Baltimore Ravens",
+      "take": "D Henry is the lead back (17 carries, 68%) but not a workhorse: he played 51% of the snaps and R Ali still got 4 carries. J Hill is the passing-down back: 4 targets (12% of the team's) on 46% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "D Henry: 68% rush share, 51% snaps"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "J Hill: 12% target share, 12% rush share"
+        }
+      ]
+    },
+    "CAR": {
+      "team_name": "Carolina Panthers",
+      "take": "This is a committee: C Hubbard 44% of the carries, T Etienne 38%. C Hubbard has the passing-down edge with 5 targets to 2. Hard to trust either as more than a flex.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "C Hubbard 44% / T Etienne 38% of carries"
+        }
+      ]
+    },
+    "CHI": {
+      "team_name": "Chicago Bears",
+      "take": "No committee here. D Swift played 86% of the snaps and took 22 of 26 carries.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "D Swift: 86% snaps, 85% rush share"
+        }
+      ]
+    },
+    "CIN": {
+      "team_name": "Cincinnati Bengals",
+      "take": "C Brown is the lead back (11 carries, 58%) but not a workhorse: he played 75% of the snaps and S Perine still got 4 carries. C Brown had 6 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "C Brown: 58% rush share, 75% snaps"
+        },
+        {
+          "key": "hvt",
+          "evidence": "C Brown: 6 high-value touches"
+        }
+      ]
+    },
+    "CLE": {
+      "team_name": "Cleveland Browns",
+      "take": "Q Judkins didn't play in Week 6 after taking 70% of the carries early in this stretch. D Sampson took 21% of the carries in Week 7. If Q Judkins sits again, D Sampson is the add.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_missed",
+          "evidence": "Q Judkins: 70% rush share early, missed [6]"
+        }
+      ]
+    },
+    "DAL": {
+      "team_name": "Dallas Cowboys",
+      "take": "J Williams is the lead back (25 carries, 68%) but not a workhorse: he played 65% of the snaps and T Goodson still got 10 carries. J Williams also got both of the team's carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "J Williams: 68% rush share, 65% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Williams: 2 of 2 carries inside the 5"
+        }
+      ]
+    },
+    "DEN": {
+      "team_name": "Denver Broncos",
+      "take": "J Coleman led the backfield with 9 carries (41%), with J Dobbins next at 6 (27%).",
+      "source": "template",
+      "signals": [
+        {
+          "key": "leaders",
+          "evidence": "top two by carries"
+        }
+      ]
+    },
+    "DET": {
+      "team_name": "Detroit Lions",
+      "take": "No committee here. J Gibbs played 90% of the snaps and took 29 of 32 carries. That's been his job all 4 games (85% of the carries). J Gibbs had 6 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "J Gibbs: 90% snaps, 91% rush share"
+        },
+        {
+          "key": "hvt",
+          "evidence": "J Gibbs: 6 high-value touches"
+        }
+      ]
+    },
+    "GB": {
+      "team_name": "Green Bay Packers",
+      "take": "This is a committee: J Jacobs 58% of the carries, M Lloyd 32%. J Jacobs has the passing-down edge with 7 targets to 2. Hard to trust either as more than a flex. J Jacobs had 7 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "J Jacobs 58% / M Lloyd 32% of carries"
+        },
+        {
+          "key": "hvt",
+          "evidence": "J Jacobs: 7 high-value touches"
+        }
+      ]
+    },
+    "HOU": {
+      "team_name": "Houston Texans",
+      "take": "W Marks is a true workhorse: 89% of the snaps and 79% of the carries (19). That's been his job all 4 games (61% of the carries).",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "W Marks: 89% snaps, 79% rush share"
+        }
+      ]
+    },
+    "IND": {
+      "team_name": "Indianapolis Colts",
+      "take": "This is a committee: J Taylor 56% of the carries, S McGowan 34%. J Taylor has the passing-down edge with 3 targets to 1. Hard to trust either as more than a flex.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "J Taylor 56% / S McGowan 34% of carries"
+        }
+      ]
+    },
+    "KC": {
+      "team_name": "Kansas City Chiefs",
+      "take": "K Walker is a true workhorse: 74% of the snaps and 100% of the carries (14). That's been his job all 4 games (86% of the carries).",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "K Walker: 74% snaps, 100% rush share"
+        }
+      ]
+    },
+    "LA": {
+      "team_name": "Los Angeles Rams",
+      "take": "This is a committee: B Corum 49% of the carries, K Williams 46%. K Williams has the passing-down edge with 2 targets to 1. Hard to trust either as more than a flex.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "B Corum 49% / K Williams 46% of carries"
+        }
+      ]
+    },
+    "LV": {
+      "team_name": "Las Vegas Raiders",
+      "take": "This is a committee: A Jeanty 53% of the carries, M Washington 40%. A Jeanty has the passing-down edge with 8 targets to 1. Hard to trust either as more than a flex. A Jeanty had 8 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "A Jeanty 53% / M Washington 40% of carries"
+        },
+        {
+          "key": "hvt",
+          "evidence": "A Jeanty: 8 high-value touches"
+        }
+      ]
+    },
+    "MIA": {
+      "team_name": "Miami Dolphins",
+      "take": "O Gordon is a true workhorse: 83% of the snaps and 74% of the carries (25). That's been his job all 4 games (65% of the carries). O Gordon also got all 5 of the team's carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "O Gordon: 83% snaps, 74% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "O Gordon: 5 of 5 carries inside the 5"
+        }
+      ]
+    },
+    "MIN": {
+      "team_name": "Minnesota Vikings",
+      "take": "This is a committee: J Mason 60% of the carries, A Jones 32%. J Mason has the passing-down edge with 2 targets to 1. Hard to trust either as more than a flex.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "J Mason 60% / A Jones 32% of carries"
+        }
+      ]
+    },
+    "NE": {
+      "team_name": "New England Patriots",
+      "take": "Notice C Kiner's carries climbing: 12% of the rush share early in this stretch, 31% in the last two games. R Stevenson had 6 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_up",
+          "evidence": "C Kiner: rush share 12% -> 31% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "R Stevenson: 6 high-value touches"
+        }
+      ]
+    },
+    "NO": {
+      "team_name": "New Orleans Saints",
+      "take": "This is a committee: K Miller 50% of the carries, A Kamara 38%. A Kamara has the passing-down edge with 7 targets to 5. Hard to trust either as more than a flex. A Kamara had 7 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "K Miller 50% / A Kamara 38% of carries"
+        },
+        {
+          "key": "hvt",
+          "evidence": "A Kamara: 7 high-value touches"
+        }
+      ]
+    },
+    "NYG": {
+      "team_name": "New York Giants",
+      "take": "C Skattebo is the lead back (17 carries, 50%) but not a workhorse: he played 56% of the snaps and T Tracy still got 6 carries. D Singletary is the passing-down back: 3 targets (11% of the team's) on 29% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "C Skattebo: 50% rush share, 56% snaps"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "D Singletary: 11% target share, 15% rush share"
+        }
+      ]
+    },
+    "NYJ": {
+      "team_name": "New York Jets",
+      "take": "B Allen is a true workhorse: 78% of the snaps and 89% of the carries (17). That's been his job all 4 games (82% of the carries). I Davis is the passing-down back: 3 targets (10% of the team's) on 22% of the snaps. That's real value in PPR. B Allen had 7 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "B Allen: 78% snaps, 89% rush share"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "I Davis: 10% target share, 5% rush share"
+        },
+        {
+          "key": "hvt",
+          "evidence": "B Allen: 7 high-value touches"
+        }
+      ]
+    },
+    "PHI": {
+      "team_name": "Philadelphia Eagles",
+      "take": "D Pierce is the lead back (14 carries, 58%) but not a workhorse: he played 64% of the snaps and S Barkley still got 7 carries. D Pierce also got both of the team's carries inside the 5. That's the touchdown role. E Mitchell is the passing-down back: 4 targets (12% of the team's) on 21% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "D Pierce: 58% rush share, 64% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "D Pierce: 2 of 2 carries inside the 5"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "E Mitchell: 12% target share, 12% rush share"
+        }
+      ]
+    },
+    "PIT": {
+      "team_name": "Pittsburgh Steelers",
+      "take": "This is a committee: J Warren 67% of the carries, R Dowdle 33%. R Dowdle has the passing-down edge with 6 targets to 4. Hard to trust either as more than a flex. R Dowdle had 7 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "J Warren 67% / R Dowdle 33% of carries"
+        },
+        {
+          "key": "hvt",
+          "evidence": "R Dowdle: 7 high-value touches"
+        }
+      ]
+    },
+    "SEA": {
+      "team_name": "Seattle Seahawks",
+      "take": "E Wilson is the lead back (24 carries, 62%) but not a workhorse: he played 48% of the snaps and G Holani still got 5 carries.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "E Wilson: 62% rush share, 48% snaps"
+        }
+      ]
+    },
+    "SF": {
+      "team_name": "San Francisco 49ers",
+      "take": "This is a committee: K Black 52% of the carries, C McCaffrey 30%. C McCaffrey has the passing-down edge with 7 targets to 3. Hard to trust either as more than a flex. K Black also got 3 of the team's 4 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "K Black 52% / C McCaffrey 30% of carries"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "K Black: 3 of 4 carries inside the 5"
+        }
+      ]
+    },
+    "TB": {
+      "team_name": "Tampa Bay Buccaneers",
+      "take": "B Irving is the lead back (24 carries, 51%) but not a workhorse: he played 59% of the snaps and K Gainwell still got 14 carries. B Irving also got 3 of the team's 5 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "B Irving: 51% rush share, 59% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "B Irving: 3 of 5 carries inside the 5"
+        }
+      ]
+    },
+    "TEN": {
+      "team_name": "Tennessee Titans",
+      "take": "T Pollard is a true workhorse: 75% of the snaps and 86% of the carries (25). That's been his job all 4 games (83% of the carries). T Pollard also got 3 of the team's 4 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "T Pollard: 75% snaps, 86% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "T Pollard: 3 of 4 carries inside the 5"
+        }
+      ]
+    },
+    "ARI-rolling": {
+      "team_name": "Arizona Cardinals",
+      "take": "J Love didn't play in Week 7 after taking 64% of the carries early in this stretch. T Allgeier took 36% of the carries in Week 7. If J Love sits again, T Allgeier is the add. B Knight got 2 of the team's 4 carries inside the 5. That's the touchdown role. Notice T Allgeier's carries climbing: 25% of the rush share early in this stretch, 44% in the last two games. T Allgeier had 12 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_missed",
+          "evidence": "J Love: 64% rush share early, missed [6, 7]"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "B Knight: 2 of 4 carries inside the 5"
+        },
+        {
+          "key": "rb_up",
+          "evidence": "T Allgeier: rush share 25% -> 44% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "T Allgeier: 12 high-value touches"
+        }
+      ]
+    },
+    "ATL-rolling": {
+      "team_name": "Atlanta Falcons",
+      "take": "B Robinson is a true workhorse: 75% of the snaps and 70% of the carries (65). B Robinson also got 2 of the team's 3 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "B Robinson: 75% snaps, 70% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "B Robinson: 2 of 3 carries inside the 5"
+        }
+      ]
+    },
+    "BAL-rolling": {
+      "team_name": "Baltimore Ravens",
+      "take": "D Henry is the lead back (81 carries, 79%) but not a workhorse: he played 56% of the snaps and J Hill still got 8 carries. D Henry also got 6 of the team's 7 carries inside the 5. That's the touchdown role. J Hill is the passing-down back: 14 targets (11% of the team's) on 43% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "D Henry: 79% rush share, 56% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "D Henry: 6 of 7 carries inside the 5"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "J Hill: 11% target share, 8% rush share"
+        }
+      ]
+    },
+    "BUF-rolling": {
+      "team_name": "Buffalo Bills",
+      "take": "J Cook is the lead back (83 carries, 80%) but not a workhorse: he played 64% of the snaps and R Davis still got 4 carries. J Cook also got 6 of the team's 10 carries inside the 5. That's the touchdown role. T Johnson is the passing-down back: 12 targets (12% of the team's) on 23% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "J Cook: 80% rush share, 64% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Cook: 6 of 10 carries inside the 5"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "T Johnson: 12% target share, 2% rush share"
+        }
+      ]
+    },
+    "CAR-rolling": {
+      "team_name": "Carolina Panthers",
+      "take": "C Hubbard is a true workhorse: 82% of the snaps and 79% of the carries (74). C Hubbard also got all 3 of the team's carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "C Hubbard: 82% snaps, 79% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "C Hubbard: 3 of 3 carries inside the 5"
+        }
+      ]
+    },
+    "CHI-rolling": {
+      "team_name": "Chicago Bears",
+      "take": "D Swift got 8 of the team's 17 carries inside the 5. That's the touchdown role. D Swift had 24 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "D Swift: 8 of 17 carries inside the 5"
+        },
+        {
+          "key": "hvt",
+          "evidence": "D Swift: 24 high-value touches"
+        }
+      ]
+    },
+    "CIN-rolling": {
+      "team_name": "Cincinnati Bengals",
+      "take": "This is a committee: C Brown 61% of the carries, S Perine 32%. C Brown has the passing-down edge with 22 targets to 6. Hard to trust either as more than a flex. C Brown had 24 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "C Brown 61% / S Perine 32% of carries"
+        },
+        {
+          "key": "hvt",
+          "evidence": "C Brown: 24 high-value touches"
+        }
+      ]
+    },
+    "CLE-rolling": {
+      "team_name": "Cleveland Browns",
+      "take": "Q Judkins didn't play in Week 6 after taking 70% of the carries early in this stretch. D Sampson took 21% of the carries in Week 7. If Q Judkins sits again, D Sampson is the add. Q Judkins also got 3 of the team's 4 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_missed",
+          "evidence": "Q Judkins: 70% rush share early, missed [6]"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "Q Judkins: 3 of 4 carries inside the 5"
+        }
+      ]
+    },
+    "DAL-rolling": {
+      "team_name": "Dallas Cowboys",
+      "take": "J Williams is a true workhorse: 74% of the snaps and 77% of the carries (67). J Williams also got all 11 of the team's carries inside the 5. That's the touchdown role. T Goodson had 16 touches but only 1 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "J Williams: 74% snaps, 77% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Williams: 11 of 11 carries inside the 5"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "T Goodson: 16 touches, 1 high-value"
+        }
+      ]
+    },
+    "DEN-rolling": {
+      "team_name": "Denver Broncos",
+      "take": "J Dobbins is the lead back (52 carries, 54%) but not a workhorse: he played 39% of the snaps and R Harvey still got 19 carries. J Dobbins also got 4 of the team's 6 carries inside the 5. That's the touchdown role. R Harvey is the passing-down back: 17 targets (16% of the team's) on 37% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "J Dobbins: 54% rush share, 39% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Dobbins: 4 of 6 carries inside the 5"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "R Harvey: 16% target share, 20% rush share"
+        }
+      ]
+    },
+    "DET-rolling": {
+      "team_name": "Detroit Lions",
+      "take": "No committee here. J Gibbs played 79% of the snaps and took 89 of 105 carries. J Gibbs also got 8 of the team's 9 carries inside the 5. That's the touchdown role. S Vaki had 15 touches but only 2 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "J Gibbs: 79% snaps, 85% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Gibbs: 8 of 9 carries inside the 5"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "S Vaki: 15 touches, 2 high-value"
+        }
+      ]
+    },
+    "GB-rolling": {
+      "team_name": "Green Bay Packers",
+      "take": "M Lloyd got 2 of the team's 8 carries inside the 5. That's the touchdown role. M Lloyd had 12 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points. K Johnson had 16 touches but only 2 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "M Lloyd: 2 of 8 carries inside the 5"
+        },
+        {
+          "key": "hvt",
+          "evidence": "M Lloyd: 12 high-value touches"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "K Johnson: 16 touches, 2 high-value"
+        }
+      ]
+    },
+    "HOU-rolling": {
+      "team_name": "Houston Texans",
+      "take": "W Marks is the lead back (55 carries, 61%) but not a workhorse: he played 75% of the snaps and D Montgomery still got 15 carries. W Marks also got 2 of the team's 3 carries inside the 5. That's the touchdown role. D Montgomery had 15 touches but only 1 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "W Marks: 61% rush share, 75% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "W Marks: 2 of 3 carries inside the 5"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "D Montgomery: 15 touches, 1 high-value"
+        }
+      ]
+    },
+    "IND-rolling": {
+      "team_name": "Indianapolis Colts",
+      "take": "No committee here. J Taylor played 73% of the snaps and took 74 of 111 carries. J Taylor also got 8 of the team's 11 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "J Taylor: 73% snaps, 67% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "J Taylor: 8 of 11 carries inside the 5"
+        }
+      ]
+    },
+    "JAX-rolling": {
+      "team_name": "Jacksonville Jaguars",
+      "take": "B Tuten is the lead back (66 carries, 65%) but not a workhorse: he played 59% of the snaps and C Rodriguez still got 27 carries. C Rodriguez got 3 of the team's 5 carries inside the 5. That's the touchdown role. B Tuten had 14 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "B Tuten: 65% rush share, 59% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "C Rodriguez: 3 of 5 carries inside the 5"
+        },
+        {
+          "key": "hvt",
+          "evidence": "B Tuten: 14 high-value touches"
+        }
+      ]
+    },
+    "KC-rolling": {
+      "team_name": "Kansas City Chiefs",
+      "take": "K Walker is a true workhorse: 74% of the snaps and 86% of the carries (73). K Walker also got all 7 of the team's carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "K Walker: 74% snaps, 86% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "K Walker: 7 of 7 carries inside the 5"
+        }
+      ]
+    },
+    "LA-rolling": {
+      "team_name": "Los Angeles Rams",
+      "take": "This is a committee: K Williams 58% of the carries, B Corum 36%. K Williams has the passing-down edge with 29 targets to 9. Hard to trust either as more than a flex. K Williams also got 5 of the team's 8 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "K Williams 58% / B Corum 36% of carries"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "K Williams: 5 of 8 carries inside the 5"
+        }
+      ]
+    },
+    "LAC-rolling": {
+      "team_name": "Los Angeles Chargers",
+      "take": "O Hampton got 3 of the team's 4 carries inside the 5. That's the touchdown role. Notice K Vidal's carries climbing: 11% of the rush share early in this stretch, 31% in the last two games. K Mitchell is the passing-down back: 14 targets (12% of the team's) on 33% of the snaps. That's real value in PPR. O Hampton had 13 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "O Hampton: 3 of 4 carries inside the 5"
+        },
+        {
+          "key": "rb_up",
+          "evidence": "K Vidal: rush share 11% -> 31% over 4"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "K Mitchell: 12% target share, 25% rush share"
+        },
+        {
+          "key": "hvt",
+          "evidence": "O Hampton: 13 high-value touches"
+        }
+      ]
+    },
+    "LV-rolling": {
+      "team_name": "Las Vegas Raiders",
+      "take": "This is a committee: A Jeanty 55% of the carries, M Washington 32%. A Jeanty has the passing-down edge with 28 targets to 5. Hard to trust either as more than a flex. A Jeanty also got 3 of the team's 5 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "A Jeanty 55% / M Washington 32% of carries"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "A Jeanty: 3 of 5 carries inside the 5"
+        }
+      ]
+    },
+    "MIA-rolling": {
+      "team_name": "Miami Dolphins",
+      "take": "O Gordon is a true workhorse: 74% of the snaps and 65% of the carries (69). O Gordon also got 10 of the team's 12 carries inside the 5. That's the touchdown role. J Wright had 17 touches but only 1 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "O Gordon: 74% snaps, 65% rush share"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "O Gordon: 10 of 12 carries inside the 5"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "J Wright: 17 touches, 1 high-value"
+        }
+      ]
+    },
+    "MIN-rolling": {
+      "team_name": "Minnesota Vikings",
+      "take": "A Jones is the lead back (70 carries, 71%) but not a workhorse: he played 68% of the snaps and J Mason still got 15 carries. Notice J Mason's carries climbing: 0% of the rush share early in this stretch, 30% in the last two games. A Jones had 15 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "A Jones: 71% rush share, 68% snaps"
+        },
+        {
+          "key": "rb_up",
+          "evidence": "J Mason: rush share 0% -> 30% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "A Jones: 15 high-value touches"
+        }
+      ]
+    },
+    "NE-rolling": {
+      "team_name": "New England Patriots",
+      "take": "R Stevenson got 2 of the team's 4 carries inside the 5. That's the touchdown role. Notice C Kiner's carries climbing: 12% of the rush share early in this stretch, 31% in the last two games. R Stevenson had 16 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "R Stevenson: 2 of 4 carries inside the 5"
+        },
+        {
+          "key": "rb_up",
+          "evidence": "C Kiner: rush share 12% -> 31% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "R Stevenson: 16 high-value touches"
+        }
+      ]
+    },
+    "NO-rolling": {
+      "team_name": "New Orleans Saints",
+      "take": "K Miller is the lead back (44 carries, 51%) but not a workhorse: he played 35% of the snaps and A Kamara still got 23 carries. K Miller also got 5 of the team's 12 carries inside the 5. That's the touchdown role. A Kamara is the passing-down back: 20 targets (14% of the team's) on 37% of the snaps. That's real value in PPR.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "K Miller: 51% rush share, 35% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "K Miller: 5 of 12 carries inside the 5"
+        },
+        {
+          "key": "pass_back",
+          "evidence": "A Kamara: 14% target share, 27% rush share"
+        }
+      ]
+    },
+    "NYG-rolling": {
+      "team_name": "New York Giants",
+      "take": "T Tracy got 2 of the team's 5 carries inside the 5. That's the touchdown role. C Skattebo's grip on the backfield is slipping: 60% of the carries early in this stretch, 25% lately. T Tracy had 8 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points. N Harris had 19 touches but only 2 high-value ones. That's empty volume, so he needs long runs to pay off.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "T Tracy: 2 of 5 carries inside the 5"
+        },
+        {
+          "key": "rb_down",
+          "evidence": "C Skattebo: rush share 60% -> 25% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "T Tracy: 8 high-value touches"
+        },
+        {
+          "key": "empty_volume",
+          "evidence": "N Harris: 19 touches, 2 high-value"
+        }
+      ]
+    },
+    "NYJ-rolling": {
+      "team_name": "New York Jets",
+      "take": "B Allen is a true workhorse: 85% of the snaps and 82% of the carries (72). B Allen had 12 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "B Allen: 85% snaps, 82% rush share"
+        },
+        {
+          "key": "hvt",
+          "evidence": "B Allen: 12 high-value touches"
+        }
+      ]
+    },
+    "PHI-rolling": {
+      "team_name": "Philadelphia Eagles",
+      "take": "D Pierce got 4 of the team's 7 carries inside the 5. That's the touchdown role. D Pierce had 13 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "goal_line",
+          "evidence": "D Pierce: 4 of 7 carries inside the 5"
+        },
+        {
+          "key": "hvt",
+          "evidence": "D Pierce: 13 high-value touches"
+        }
+      ]
+    },
+    "PIT-rolling": {
+      "team_name": "Pittsburgh Steelers",
+      "take": "No committee here. J Warren played 80% of the snaps and took 64 of 86 carries. Notice R Dowdle's carries climbing: 0% of the rush share early in this stretch, 33% in the last two games. J Warren had 15 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "workhorse",
+          "evidence": "J Warren: 80% snaps, 74% rush share"
+        },
+        {
+          "key": "rb_up",
+          "evidence": "R Dowdle: rush share 0% -> 33% over 4"
+        },
+        {
+          "key": "hvt",
+          "evidence": "J Warren: 15 high-value touches"
+        }
+      ]
+    },
+    "SEA-rolling": {
+      "team_name": "Seattle Seahawks",
+      "take": "E Wilson is the lead back (79 carries, 67%) but not a workhorse: he played 48% of the snaps and G Holani still got 21 carries. G Holani got 2 of the team's 3 carries inside the 5. That's the touchdown role. E Wilson had 11 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "E Wilson: 67% rush share, 48% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "G Holani: 2 of 3 carries inside the 5"
+        },
+        {
+          "key": "hvt",
+          "evidence": "E Wilson: 11 high-value touches"
+        }
+      ]
+    },
+    "SF-rolling": {
+      "team_name": "San Francisco 49ers",
+      "take": "This is a committee: C McCaffrey 50% of the carries, K Black 33%. C McCaffrey has the passing-down edge with 25 targets to 4. Hard to trust either as more than a flex. C McCaffrey also got 7 of the team's 11 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "committee",
+          "evidence": "C McCaffrey 50% / K Black 33% of carries"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "C McCaffrey: 7 of 11 carries inside the 5"
+        }
+      ]
+    },
+    "TB-rolling": {
+      "team_name": "Tampa Bay Buccaneers",
+      "take": "B Irving is the lead back (80 carries, 64%) but not a workhorse: he played 65% of the snaps and K Gainwell still got 23 carries. B Irving also got 4 of the team's 8 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "B Irving: 64% rush share, 65% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "B Irving: 4 of 8 carries inside the 5"
+        }
+      ]
+    },
+    "TEN-rolling": {
+      "team_name": "Tennessee Titans",
+      "take": "T Pollard is the lead back (74 carries, 83%) but not a workhorse: he played 62% of the snaps and T Spears still got 5 carries. T Pollard also got 7 of the team's 8 carries inside the 5. That's the touchdown role.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "lead_back",
+          "evidence": "T Pollard: 83% rush share, 62% snaps"
+        },
+        {
+          "key": "goal_line",
+          "evidence": "T Pollard: 7 of 8 carries inside the 5"
+        }
+      ]
+    },
+    "WAS-rolling": {
+      "team_name": "Washington Commanders",
+      "take": "J Croskey-Merritt didn't play in Week 6 after taking 56% of the carries early in this stretch. R White took 54% of the carries in Week 6. If J Croskey-Merritt sits again, R White is the add. R White had 6 high-value touches (catches plus carries inside the 10). Those are the touches that score fantasy points.",
+      "source": "template",
+      "signals": [
+        {
+          "key": "rb_missed",
+          "evidence": "J Croskey-Merritt: 56% rush share early, missed [6]"
+        },
+        {
+          "key": "hvt",
+          "evidence": "R White: 6 high-value touches"
+        }
+      ]
+    }
+  }
+}
